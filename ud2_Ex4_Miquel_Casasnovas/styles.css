@@ -57,20 +57,9 @@ p input[type="checkbox"] + a {
     text-decoration: underline;
 }
 
-input:hover {
-    outline: 2px solid rgba(243, 247, 0, 0.575);
-}
-
-input[type="checkbox"]:hover{
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus{
     outline: none;
-}
-
-input[type="radio"]:hover{
-    outline: none;
-}
-
-textarea:hover{
-    outline: 2px solid rgba(243, 247, 0, 0.575);
+    box-shadow:  0px 0px 0px 3px rgba(251, 255, 0, 0.493);
 }
 
 p input[type="checkbox"]:checked{
@@ -87,4 +76,8 @@ input[type="submit"]{
 
 input[type="text"], input[type="email"]{
     width: 30%;
+}
+
+input[type="radio"]:checked{
+    accent-color: grey;
 }
