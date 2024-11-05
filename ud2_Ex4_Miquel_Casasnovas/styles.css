@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1e2019;
+    color: #d3d0cb;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+header {
+    background-color: #d3d0cb;
+    padding: 10px;
+}
+
+.red {
+    color: red;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+header nav a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+h1 {
+    color: #d3d0cb;
+    margin-top: 10px;
+}
+
+form {
+    border: 1px solid #d3d0cb;
+    width: 45%;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+form p {
+    padding: 10px;
+}
+
+img {
+    max-width: 200px;
+    margin-top: 10px;
+}
+
+p input[type="checkbox"] + a {
+    color: #d3d0cb;
+    text-decoration: underline;
+}
+
+input:hover {
+    outline: 2px solid rgba(243, 247, 0, 0.575);
+}
+
+input[type="checkbox"]:hover{
+    outline: none;
+}
+
+input[type="radio"]:hover{
+    outline: none;
+}
+
+textarea:hover{
+    outline: 2px solid rgba(243, 247, 0, 0.575);
+}
+
+p input[type="checkbox"]:checked{
+    accent-color: grey;
+}
+
+input[type="submit"]{
+    background-color: #E2C044;
+    width: 7%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+input[type="text"], input[type="email"]{
+    width: 30%;
+}
